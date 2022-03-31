@@ -20,10 +20,26 @@ mkdir = crear nuevo directorio
 git init
 
 
-*AGREGANDO CAMBIOS*
+*AGREGANDO CAMBIOS* (estapa de stage)
 code . = para abrir VSCode en la carpeta donde nos encontramos
 git status = vemos los archivos que no estan agregados (color rojo) y los que ya estan comprometidos (color verde)
-git add nombre del archivo = agregamos archivos a git 
+git add nombre del archivo = agregamos archivos a git  
 
 *commit en Git*
 git commit -m "texto"
+
+*ELIMINAR DE NUESTRO LISTADO*
+rm nombre del archivoagregar CAMBIOS
+hacer commit
+
+*RESTAURAR ARCHIVO QUE ESTE EN STAGE (VERDE A ROJO)*
+git restore --staged nombre del archivo
+
+
+*RESTAURAR ARCHIVO ELIMINADO*
+git restore nombre del archivo 
+
+*CAMBIAR NOMBRE A ARCHIVO*
+git mv nombreDelArchivo nuevoNombreDelArchivo
+
+

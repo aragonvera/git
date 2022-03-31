@@ -24,3 +24,6 @@ git init
 code . = para abrir VSCode en la carpeta donde nos encontramos
 git status = vemos los archivos que no estan agregados (color rojo) y los que ya estan comprometidos (color verde)
 git add nombre del archivo = agregamos archivos a git 
+
+*commit en Git*
+git commit -m "texto"

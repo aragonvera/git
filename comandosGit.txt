@@ -1,0 +1,26 @@
+*CONFIGURACION DE GIT*
+git --version
+git config --global user.name "Abraham Gonzalez"
+git config --global user.email aragonvera25@gmail.com
+git config --global core.editor "code --wait"
+git config --global -e
+$ git config --global core.autocrlf true
+
+
+*COMANDOS DE GIT*
+ls = listar los directorios o carpetas
+ls -a =listar directorios y directorios ocultos
+pwd = nos indica en que directorio nos encontramos
+cd = nos mueve de directorio
+cd .. = regresar un directorio hacia atras
+mkdir = crear nuevo directorio
+
+
+*INICIALIZAR GIT*
+git init
+
+
+*AGREGANDO CAMBIOS*
+code . = para abrir VSCode en la carpeta donde nos encontramos
+git status = vemos los archivos que no estan agregados (color rojo) y los que ya estan comprometidos (color verde)
+git add nombre del archivo = agregamos archivos a git 
